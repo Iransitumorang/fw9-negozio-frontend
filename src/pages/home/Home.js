@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 
 function Home() {
@@ -8,7 +9,7 @@ function Home() {
             <Container>
                 <Row>
                     <Col>
-                        <div>Hello</div>
+                        <Link to="/ProductDetail"><h2>Product Detail</h2></Link> 
                     </Col>
                 </Row>
             </Container>
